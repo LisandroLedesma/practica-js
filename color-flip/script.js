@@ -28,6 +28,7 @@ let generarNumeroAleatorio = (a, b) => {
     return Math.floor(a + Math.random() * (b - a));
 }
 
+// Esto puede hacerse con una sola bandera, si, quedó de esta forma porque estaba en consideración una tercer opción "hexa" y se mantiene así porque en algún momento lo voy a actualizar, o no
 let seleccionOpcion = (id) => {
     if (id === ID_SIMPLE) {
         rgb = false;

@@ -1,5 +1,7 @@
 const root = document.documentElement.style;
 const color = document.getElementById('color');
+const simpleElement = document.getElementById('simple');
+const rgbElement = document.getElementById('rgb');
 
 root.setProperty('--main-bg-color', 'rgb(78, 183, 125)');
 color.innerHTML += root.getPropertyValue('--main-bg-color');
@@ -33,8 +35,12 @@ let seleccionOpcion = (id) => {
     if (id === ID_SIMPLE) {
         rgb = false;
         simple = true;
+        simpleElement.classList.add('active');
+        rgbElement.classList.remove('active');
     } else {
         rgb = true;
         simple = false;
+        rgbElement.classList.add('active');
+        simpleElement.classList.remove('active');
     }
 }

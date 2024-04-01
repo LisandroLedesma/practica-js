@@ -51,14 +51,14 @@ li {
 }
 
 main {
-    padding: 100px;
-    height: 150px;
+    padding: 50px;
+    height: 125px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: var(--color-bg-light);
-    margin: 125px 250px;
+    margin: 190px 350px;
 }
 
 .color {

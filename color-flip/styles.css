@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --main-bg-color: rgb(78, 183, 125);
+    --color-bg-light: rgb(233, 202, 161);
+    --color-bg-dark: rgb(12, 11, 11);
+}
+
+* {
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-bg-light);
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+li {
+    font-size: 25px;
+    cursor: pointer;
+    background-color: var(--color-bg-light);
+    color: var(--color-bg-dark);
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    padding: 15px;
+}
+
+.navbar li:hover {
+    background-color: var(--color-bg-dark);
+    color: var(--color-bg-light);
+}
+
+.active {
+    background-color: var(--color-bg-dark);
+    color: var(--color-bg-light);
+}
+
+main {
+    padding: 100px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-bg-light);
+    margin: 125px 250px;
+}
+
+.color {
+    color: var(--color-bg-light);
+    background-color: var(--color-bg-dark);
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boton {
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 75px;
+    color: var(--main-bg-color);
+    background-color: var(--color-bg-dark);
+}

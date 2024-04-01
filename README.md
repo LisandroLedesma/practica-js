@@ -1,0 +1,1 @@
+colección de mini proyectos utilizando js vanilla con el objetivo de practicar cositas relacionadas al frontend

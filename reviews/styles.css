@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --font-title: "Roboto Mono", monospace;
+}
+
+body {
+    background-color: rgb(223, 240, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    place-content: center;
+}
+
+.container {
+    text-align: center;
+    height: 37rem;
+    width: 35rem;
+}
+
+h2 {
+    font-family: var(--font-title);
+    font-size: 70px;
+    line-height: 0.01;
+}
+
+.underline {
+    background-color: rgb(61, 107, 234);
+    height: 0.25rem;
+    margin-left: 50%;
+    margin-bottom: 1rem;
+}
+
+.review {
+    background-color: rgb(247, 247, 247);
+    padding: 1rem 1rem;
+}
+
+.review__image {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
